@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@font-face {
+  font-family: gotham;
+  src: url("GothamBold.woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-size: 5rem;
+  text-align: center;
+  line-height: 100vh;
+  /* font-family:"gotham",sans-serif; */
+}
+span
+{
+  opacity: 0;
+  transition: all 3s ease;
+}
+span.fade{
+  opacity: 1;
+}
